@@ -29,7 +29,7 @@ export class Controller {
     // their might be a message sent before.
     await sleep(this.pushingFrequency * 1000);
 
-    for (;;) {
+    for (; ;) {
       // We will push all prices whose update condition is YES or EARLY as long as there is
       // at least one YES.
       let pushThresholdMet = false;
@@ -75,7 +75,7 @@ export class Controller {
 
         // note that the priceIds are without leading "0x"
         const priceIds = pricesToPush.map((priceConfig) => priceConfig.id);
-        this.targetChainPricePusher.updatePriceFeed(priceIds, pubTimesToPush);
+        await this.targetChainPricePusher.updatePriceFeed(priceIds, pubTimesToPush);
       } else {
         this.logger.info("None of the checks were triggered. No push needed.");
       }
