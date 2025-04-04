@@ -1,14 +1,45 @@
 - alias: BTC/USD
   id: f9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b
-  time_difference: 60
+  time_difference: 30
   price_deviation: 0.5
   confidence_ratio: 1
 - alias: BNB/USD
   id: ecf553770d9b10965f8fb64771e93f5690a182edc32be4a3236e0caaa6e0581a
-  time_difference: 60
+  time_difference: 30
   price_deviation: 1
   confidence_ratio: 1
   early_update:
     time_difference: 30
     price_deviation: 0.5
     confidence_ratio: 0.1
+
+- alias: APT/USD
+  id: "44a93dddd8effa54ea51076c4e851b6cbbfd938e82eb90197de38fe8876bb66e"
+  time_difference: 30
+  price_deviation: 0.5
+  confidence_ratio: 1
+- alias: ETH/USD
+  id: "ca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6"
+  time_difference: 30
+  price_deviation: 0.5
+  confidence_ratio: 1
+- alias: SOL/USD
+  id: "fe650f0367d4a7ef9815a593ea15d36593f0643aaaf0149bb04be67ab851decd"
+  time_difference: 30
+  price_deviation: 0.5
+  confidence_ratio: 1
+- alias: USDC/USD
+  id: "41f3625971ca2ed2263e78573fe5ce23e13d2558ed3f2e47ab0f84fb9e7ae722"
+  time_difference: 30
+  price_deviation: 0.5
+  confidence_ratio: 1
+- alias: USDT/USD
+  id: "1fc18861232290221461220bd4e2acd1dcdfbc89c84092c93c18bdc7756c1588"
+  time_difference: 30
+  price_deviation: 0.5
+  confidence_ratio: 1
+- alias: USDY/USD
+  id: "c222a1d2b89218c034b515e738b19ee268c105d8ede44d95b279f1c8bfbb68af"
+  time_difference: 30
+  price_deviation: 0.5
+  confidence_ratio: 1
